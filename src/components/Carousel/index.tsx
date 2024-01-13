@@ -28,8 +28,6 @@ const Carousel: React.FC<ICarouselProps> = ({ data }) => {
           animation: true,
         });
       } else {
-        console.log("add");
-
         flatlistRef?.current?.scrollToIndex({
           index: activeIndex + 1,
           animation: true,
